@@ -1,0 +1,14 @@
+{
+  "name": "plnty",
+  "owner": {
+    "name": "Plnty Labs Ltd",
+    "url": "https://plnty.app"
+  },
+  "description": "Plnty's plugin for Claude: its creative skills and its tools for pictures and clips.",
+  "plugins": [
+    {
+      "name": "plnty",
+      "source": "./"
+    }
+  ]
+}

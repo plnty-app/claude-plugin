@@ -1,0 +1,18 @@
+{
+  "name": "plnty",
+  "displayName": "Plnty",
+  "version": "1.0.0",
+  "description": "Plnty's creative skills and tools in Claude: start a whole creative job from your brief and your pictures, or make and change pictures and clips, all saved in your Plnty library.",
+  "author": {
+    "name": "Plnty Labs Ltd",
+    "url": "https://plnty.app"
+  },
+  "homepage": "https://plnty.app",
+  "repository": "https://github.com/plnty-app/claude-plugin",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://plnty.app/docs/using-plnty/ai-assistants/plnty-in-claude/",
+  "supportUrl": "https://plnty.app/contact",
+  "privacyPolicyUrl": "https://plnty.app/legal/privacy",
+  "termsOfServiceUrl": "https://plnty.app/legal/terms"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "plnty": {
+      "type": "http",
+      "url": "https://mcp.plnty.app"
+    }
+  }
+}
