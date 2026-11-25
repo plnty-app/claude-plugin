@@ -4,7 +4,7 @@ Plnty's creative skills and tools, in Claude. Ask for a picture, an edit or a sh
 
 ## Add it
 
-In Claude on the web or the desktop app, open **Customize**, **Plugins**, press **Add**, **Add marketplace** and enter `plnty-app/claude-plugin`, then add **Plnty** from the list. In Claude Code, run:
+In Claude on the web or the desktop app (a paid plan), open **Plugins** in the sidebar (**Customize**, **Plugins** where it still says Customize), press **Add**, **Add marketplace**, then **Add from a repository**, enter `plnty-app/claude-plugin`, and add **Plnty** from the list. In Claude Code, run:
 
 ```
 /plugin install plnty --marketplace plnty-app/claude-plugin
