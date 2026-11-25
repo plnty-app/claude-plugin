@@ -25,7 +25,7 @@ The plugin also brings two of Plnty's creative skills, whole jobs that Rothko ru
 | `/plnty:explorer-mode` | Finished pictures from new mixes of a moodboard of yours, two pictures or more |
 | `/plnty:made-by-hand` | A short tabletop film of one thing made step by step, from one line about it |
 
-Type the command in Claude Code or Cowork, or pick the skill from the `/` menu in a Claude chat. Plnty answers a skill's total before it starts, and it runs once you say yes. For now creative skills start from a chat on Plnty's team accounts: on other accounts the command says so, and Claude can make what you asked for with Plnty's tools instead.
+Type the command in Claude Code or Cowork, or pick the skill from the `/` menu in a Claude chat. Before a skill starts, Plnty answers its total and any of your spending limits it would pass, and it runs once you say yes.
 
 ## Data
 
