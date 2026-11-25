@@ -12,7 +12,7 @@ In Claude on the web or the desktop app (a paid plan), open **Plugins** in the s
 
 Or, in your terminal, `claude plugin install plnty --marketplace plnty-app/claude-plugin`. In VS Code, open `vscode://anthropic.claude-code/install-plugin?plugin=plnty&marketplace=plnty-app/claude-plugin` and pick where to install it. On a Claude Code older than 2.1.275, run `/plugin marketplace add plnty-app/claude-plugin` and then `/plugin install plnty@plnty`. A plugin you added in Claude on the web is in Claude Code already (2.1.273 and later, signed in with the same Claude account).
 
-Then connect your Plnty account. In Claude, open the plugin's **Connectors** tab and connect Plnty. In Claude Code, run `/mcp` and choose `plugin:plnty:plnty`, or run `claude mcp login plugin:plnty:plnty` in your terminal. Plnty opens to approve the connection, and there you choose whether a paid run waits for your yes and can set a daily credit limit. If you already added Plnty to Claude Code by its address, the plugin keeps that connection.
+Then connect your Plnty account. In Claude, open the plugin's **Connectors** tab and connect Plnty. In Claude Code, run `/mcp` and choose `plugin:plnty:plnty`, or run `claude mcp login plugin:plnty:plnty` in your terminal. Plnty opens to approve the connection, and there you choose whether a paid run waits for your yes and can set a daily credit limit. If you already added Plnty to Claude Code by its address, the plugin keeps that connection. If Plnty is also a connector in your Claude account, Claude Code uses that connector instead: `/mcp` lists it with claude.ai in front of its name, so sign it in there, or remove the connector in Claude.
 
 Plugins from outside Anthropic do not update by themselves. Run `claude plugin update plnty@plnty` for the newest version, or turn on auto-update for the plnty marketplace under `/plugin`, **Marketplaces**.
 
@@ -25,7 +25,7 @@ The plugin also brings two of Plnty's creative skills, whole jobs that Rothko ru
 | Command | What it makes |
 | - | - |
 | `/plnty:explorer-mode` | Finished pictures from new mixes of a moodboard of yours, two pictures or more |
-| `/plnty:made-by-hand` | A short tabletop film of one thing made step by step, from one line about it |
+| `/plnty:made-by-hand` | A short tabletop film of one thing made step by step, from one line about it: first the hero, its hands and the shots written out, then a draft of every shot once you say yes to its price |
 
 Type the command in Claude Code or Cowork, or pick the skill from the `/` menu in a Claude chat. Before a skill starts, Plnty answers its total and any of your spending limits it would pass, and it runs once you say yes.
 

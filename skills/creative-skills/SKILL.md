@@ -14,6 +14,7 @@ A creative skill is a whole job. Rothko runs it on Plnty's server from start to 
 3. **Ask Rothko.** Call `plan` with the person's own words as `ask`, the pictures as `asset_ids`, and `skill` set to the skill's name. Rothko answers the skill as the way, with what it costs.
 4. **Get the person's yes.** Tell them what the skill costs and what it needs, and ask whether to go ahead. On their yes, call `run_way` with the way's start arguments. Its first call starts nothing: it answers the total, and any of the person's own limits the run would pass. Tell them, and only if they say yes call `run_way` again with `approved_cost`, and `approved_limits` when it named any. Never approve for them.
 5. **Follow it.** Call `get_way_run` with the `runId` until the run ends, passing `after_stage` as each reply says, and show the pictures and clips each part kept. At the end, say what it made, what it spent and Rothko's pick. If the person wants to stop, call `stop_way_run`.
+6. **Its next part.** Some skills end their first part by offering the next (Made by hand offers to draft every shot). The last `get_way_run` reply then holds `offer`: what the next part makes, the shots Rothko wrote and the most it may cost. Show the shots, say the price, and ask. Only on their yes call `run_way` with `rest_of` set to that run's `runId`, alone: like any start it answers the total first, and starts when you call it again with `approved_cost`. Then follow the new run as in step 5.
 
 ## When it cannot start
 
